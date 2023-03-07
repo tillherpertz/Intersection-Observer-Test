@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 5rem;
+}
+
+.one {
+    background-color: #111;
+}
+
+.two {
+    background-color: #4fbee0;
+}
+
+.three {
+    background-color: #e04848;
+}
+
+.four {
+    background-color: #b24fe0;
+}
+
+#element1 {
+    transition: all 1s;
+}
+
+#element2 {
+    transition: all 1s;
+}
+
+#element3 {
+    transition: all 1s;
+}
+
+#element4 {
+    transition: all 1s;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
